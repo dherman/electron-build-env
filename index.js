@@ -101,7 +101,8 @@ module.exports = function build(command, opts, done) {
         npm_config_runtime: 'electron',
         npm_config_build_from_source: true,
         npm_config_devdir: devdir
-      })
+      }),
+      shell: true
     };
 
     var cmd = command.shift();
