@@ -82,7 +82,7 @@ module.exports = function build(command, opts, done) {
 
   let arch = opts.arch || process.arch;
 
-  let disturl = opts.disturl || "https://atom.io/download/electron";
+  let disturl = opts.disturl || "https://electronjs.org/headers";
 
   let devdir = opts.devdir || path.join(os.homedir(), ".electron-gyp");
 
